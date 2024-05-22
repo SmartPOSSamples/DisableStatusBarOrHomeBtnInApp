@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/showmsg"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_alignParentTop="true"
+        android:text="@string/hello_world"
+        android:textColor="#00000000"
+        android:textSize="40sp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn3_back"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/showmsg"
+        android:layout_marginTop="10dp"
+        android:background="@color/lv_row_highlight_bg_blue"
+        android:clickable="true"
+        android:text="close app"
+        android:textSize="27sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn2_return"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="test return button"
+            android:textSize="27sp" />
+
+        <Button
+            android:id="@+id/btn4_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="test Home button"
+            android:textSize="27sp" />
+
+        <Button
+            android:id="@+id/btn1_menu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="test menu button"
+            android:textSize="27sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

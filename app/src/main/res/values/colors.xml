@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="red">#ff0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="orange">#ffa500</color>
+
+    <color name="custom_anim_dialog_bg">#aa000000</color>
+
+    <color name="consumption_index_textview_bgcolor1">#6a788b</color>
+    <color name="consumption_index_payType2_layout_bg">#e8e8e8</color>
+
+    <color name="lv_row_bg_gray_default">#D1D1D1</color>
+
+    <color name="order_detail_textcolor_gray">#7f7f7f</color>
+
+    <color name="trade_statistics_textcolor_gray">#7f7f7f</color>
+
+    <color name="lv_row_highlight_bg_blue">#5F87BC</color>
+</resources>
